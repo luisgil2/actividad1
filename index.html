@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#">MyRuts</a>
+                </div>
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">Home</a></li>
+                    <li><a href="#1">Conocenos</a></li>
+                    <li><a href="#2">Mapa</a></li>
+                    <li><a href="#3">Comunidad</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <section class="imagen">
+
+    </section>
+
+    <section class="seccion2" id="1">
+        <h1 style="text-align: center;">Conoce nuestros beneficios</h1>
+        <div class="about">
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="mapa.png" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Mapeo </h5>
+                    <p class="card-text">Permitimos visualizar las ciclovías existentes, proponer
+                        nuevas rutas y conectarlas con lugares estratégicos como transportes público y
+                        áreas comerciales.</p>
+                    <a href="#2" class="btn btn-primary">Mapas</a>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="alerts.png" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Alertas </h5>
+                    <p class="card-text"> Implementar un sistema de alertas que informe a los ciclistas sobre zonas
+                        peligrosas, intersecciones conflictivas y cambios climáticos.</p>
+                    <a href="#2" class="btn btn-primary">Alertas</a>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="comunidad.png" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Comunidad</h5>
+                    <p class="card-text">Crear un espacio de interacción donde los usuarios puedan compartir consejos,
+                        rutas favoritas y eventos relacionados con el ciclismo urbano.</p>
+                    <a href="#3" class="btn btn-primary">Comunidad</a>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+    <section class="maps" id="2">
+        <h1 style="text-align: center;">Descubre tu proxima ruta!</h1>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13956.556868429778!2d-74.83674242100935!3d11.00659948789298!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef42d50c9d8a2af%3A0xc3f934cfea88f3d1!2sCiclo%20Special%20Barranquilla!5e0!3m2!1ses!2sco!4v1693020086558!5m2!1ses!2sco"
+            style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <div class="alerta">
+
+            <form action="">
+                <h1>Aún no conoces tu <br> proxima ruta?</h1>
+
+                <input type="text " placeholder="Origen de la ruta">
+                <input type="text" placeholder="Destino de la ruta">
+                <a href="#" class="btn btn-primary">Comencemos</a>
+            </form>
+            <div class="alert">
+                <h2>No te olvides de activar el <br> sistema de Alerta</h2>
+                <a href="#" class="btn btn-primary">Activar</a>
+            </div>
+        </div>
+
+    </section>
+    <section class="comunidad" id="3">
+        <div class="container my-5 py-5 text-dark">
+            <div class="row d-flex justify-content-center">
+                <div class="col-md-12 col-lg-10 col-xl-8">
+                    <div class="d-flex justify-content-between align-items-center mb-4">
+                        <h4 class="text-dark mb-0">Unread comments (3)</h4>
+
+                    </div>
+
+                    <div class="card mb-3">
+                        <div class="card-body">
+                            <div class="d-flex flex-start">
+                                <img class="rounded-circle shadow-1-strong me-3"
+                                    src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(26).webp" alt="avatar"
+                                    width="40" height="40" />
+                                <div class="w-100">
+                                    <div class="d-flex justify-content-between align-items-center mb-3">
+                                        <h6 class="text-primary fw-bold mb-0">
+                                            lara_stewart
+                                            <span class="text-dark ms-2">Hmm, esta pagina se ve demasiado genial</span>
+                                        </h6>
+                                        <p class="mb-0">2 dias </p>
+                                    </div>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <p class="small mb-0" style="color: #aaa;">
+                                            <a href="#!" class="link-grey">Eliminar</a> •
+                                            <a href="#!" class="link-grey">Responer</a> •
+                                        </p>
+                                        <div class="d-flex flex-row">
+                                            <i class="fas fa-star text-warning me-2"></i>
+                                            <i class="far fa-check-circle" style="color: #aaa;"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card mb-3">
+                        <div class="card-body">
+                            <div class="d-flex flex-start">
+                                <img class="rounded-circle shadow-1-strong me-3"
+                                    src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(21).webp" alt="avatar"
+                                    width="40" height="40" />
+                                <div class="w-100">
+                                    <div class="d-flex justify-content-between align-items-center mb-3">
+                                        <h6 class="text-primary fw-bold mb-0">
+                                            the_sylvester_cat
+                                            <span class="text-dark ms-2">Amo esta aplicacion! </span>
+                                        </h6>
+                                        <p class="mb-0">3 dias</p>
+                                    </div>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <p class="small mb-0" style="color: #aaa;">
+                                            <a href="#!" class="link-grey">Eliminar</a> •
+                                            <a href="#!" class="link-grey">Responder</a> •
+                                        </p>
+                                        <div class="d-flex flex-row">
+                                            <i class="far fa-check-circle text-primary"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card mb-3">
+                        <div class="card-body">
+                            <div class="d-flex flex-start">
+                                <img class="rounded-circle shadow-1-strong me-3"
+                                    src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(20).webp" alt="avatar"
+                                    width="40" height="40" />
+                                <div class="w-100">
+                                    <div class="d-flex justify-content-between align-items-center mb-3">
+                                        <h6 class="text-primary fw-bold mb-0">
+                                            mindyy_def
+                                            <span class="text-dark ms-2">De verdad como nunca habia conocido esta super
+                                                app de Rutas?
+                                            </span>
+                                        </h6>
+                                        <p class="mb-0">3 dias</p>
+                                    </div>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <p class="small mb-0" style="color: #aaa;">
+                                            <a href="#!" class="link-grey">Eliminar</a> •
+                                            <a href="#!" class="link-grey">Responder</a> •
+                                        </p>
+                                        <div class="d-flex flex-row">
+                                            <i class="fas fa-user-plus" style="color: #aaa;"></i>
+                                            <i class="far fa-star mx-2" style="color: #aaa;"></i>
+                                            <i class="far fa-check-circle text-primary"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+</body>
+
+</html>

@@ -1,0 +1,79 @@
+.nav {
+    display: flex;
+    flex-direction: row;
+}
+
+li {
+    padding: 5px;
+}
+
+.imagen {
+    height: 80vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("ciclistas.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    margin: auto;
+
+}
+
+.seccion2 h1 {
+    padding: 10px;
+    margin: 15px;
+}
+
+.maps {
+    padding: 50px;
+}
+
+.maps h1 {
+    padding: 20px;
+}
+
+iframe {
+    width: 100%;
+    height: 70vh;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    padding: 20px;
+}
+
+form input {
+    padding: 10px;
+    margin: 5px;
+}
+
+form a {
+    margin-top: 5px;
+}
+
+.alerta {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.alert {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.alert .btn {
+    background-color: rgb(226, 226, 226);
+    border-color: grey;
+    color: rgb(0, 48, 45);
+    font-weight: bold;
+}
